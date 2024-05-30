@@ -20,9 +20,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "pstruct.h"
-#include "putil.h"
-#include "parser.h"
+#include "../include/pstruct.h"
+#include "../include/putil.h"
+#include "../include/parser.h"
 
 #define USAGE "Usage: %s [-opts] model string                              \n\
                                                                            \n\

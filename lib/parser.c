@@ -20,10 +20,10 @@
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
-#include "pstruct.h"
-#include "putil.h"
-#include "parser.h"
-#include "io-util.h"
+#include "../include/pstruct.h"
+#include "../include/putil.h"
+#include "../include/parser.h"
+#include "../include/io-util.h"
 
 int yes_over_thresh(int num, int den, float thresh)
 {

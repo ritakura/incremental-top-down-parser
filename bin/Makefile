@@ -8,10 +8,10 @@ SRC= $(SRCDIR)/bin
 all: $(SRCS)
 
 tdptrain: tdptrain.o $(INCS) $(LIBS)
-	$(CC) -o tdptrain tdptrain.o $(LIBS)
+	$(CC) -o tdptrain tdptrain.o $(LIBS) -lm
 
 tdparse: tdparse.o $(INCS) $(LIBS)
-	$(CC) -o tdparse tdparse.o $(LIBS)
+	$(CC) -o tdparse tdparse.o $(LIBS) -lm
 
 $(PARLIB): $(LIBDEP) $(INCS)
 	cd $(INSTDIR)/lib; $(MAKE)
