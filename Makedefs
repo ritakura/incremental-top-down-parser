@@ -1,4 +1,4 @@
-INSTDIR=~/mlab/incremental-top-down-parser-master
+INSTDIR=../../incremental-top-down-parser
 CC= gcc
 CFLAGS= -g $(INCLUDEDIRS)
 PARLIB= $(INSTDIR)/lib/libparse.a
